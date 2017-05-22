@@ -8,7 +8,7 @@ import yaml
 
 
 class YamlNone(object):
-    def __nonzero__(self):
+    def __bool__(self):
         return False
 
     def __bool__(self):
